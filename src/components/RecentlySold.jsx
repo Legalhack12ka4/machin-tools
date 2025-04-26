@@ -20,7 +20,7 @@ export default function RecentlySold() {
         {items.map((item, idx) => (
           <div key={idx} className="border rounded-xl shadow overflow-hidden">
             <div className="relative">
-              <div className="absolute text-center rounded-full w-full left-[3px] top-[65px] transform rotate-[-33deg] bg-orange-600 text-white text-xs font-bold px-12 py-1">
+              <div className="absolute text-center rounded-full w-full left-[3px] top-[65px] transform rotate-[-16deg] bg-orange-600 text-white text-xs font-bold px-12 py-1">
                 SOLD
               </div>
               <img

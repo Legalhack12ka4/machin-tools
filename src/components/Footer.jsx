@@ -38,16 +38,22 @@ export default function Footer() {
         </div>
 
         {/* Home Links */}
-        <div className="flex flex-col items-center md:items-start justify-center">
-          <h4 className="font-bold mb-4">Home</h4>
-          <p className="mb-2">Products</p>
-          <p className="mb-2">About Us</p>
-          <p className="mb-2">Contact Us</p>
+        <div className="flex flex-col items-center md:items-start justify-center gap-4">
+          <h4 className="font-bold">Home</h4>
+          <p>Products</p>
+          <p>About Us</p>
+          <p>Contact Us</p>
         </div>
 
         {/* Contact Info with Icons */}
-        <div className="flex flex-col items-center md:items-start justify-center">
-          <h4 className="font-bold mb-4">Contact</h4>
+        <div className="flex flex-col items-center md:items-start justify-center gap-4">
+          <div className="flex items-center">
+            <FaMapMarkerAlt className="text-orange-500 mr-2" />
+            <div>
+            <p>Address will come here</p>
+            <p>Address will come here</p>
+            </div>
+          </div>
           <div className="flex items-center mb-2">
             <FaPhoneAlt className="text-orange-500 mr-2" />
             <p>(123) 456-7890</p>
@@ -56,10 +62,7 @@ export default function Footer() {
             <FaEnvelope className="text-orange-500 mr-2" />
             <p>info@machinetoolssales.com</p>
           </div>
-          <div className="flex items-center">
-            <FaMapMarkerAlt className="text-orange-500 mr-2" />
-            <p>Address will come here</p>
-          </div>
+         
         </div>
       </div>
 
