@@ -3,8 +3,11 @@ import React from 'react';
 export default function Testimonials() {
   return (
     <section className="py-10 px-6">
-      <h3 className="text-xl font-bold mb-4">Testimonial Listings</h3>
-      <div className="flex flex-col md:flex-row gap-5 overflow-x-auto py-10">
+  <div className="mb-6 pb-2">
+        <h3 className="text-2xl font-bold mb-2">Successful Stories</h3>
+        <div className="border-b-3 border-gray-800 w-[100px]"></div>
+      </div>
+      <div className="flex flex-col md:flex-row gap-5 overflow-x-auto">
         {[1, 2, 3].map((_, i) => (
           <div
             key={i}

@@ -49,9 +49,9 @@ export default function Categories() {
 
   return (
     <section className="bg-gray-100 py-12 px-6">
-      <div className="mb-6 pb-2 text-center">
-        <h3 className="text-2xl font-bold mb-2">Categories</h3>
-        <div className="border-b-2 border-gray-300 w-[100px] mx-auto"></div>
+        <div className="mb-6 pb-2">
+        <h3 className="text-2xl font-bold mb-2">Catgories</h3>
+        <div className="border-b-3 border-gray-800 w-[100px]"></div>
       </div>
 
       <div className="relative">
